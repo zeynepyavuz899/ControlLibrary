@@ -16,5 +16,10 @@ namespace libraryManagement
         {
             InitializeComponent();
         }
+
+        private void panelbookreport_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
