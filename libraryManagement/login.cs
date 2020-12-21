@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace libraryManagement
 {
-    public partial class FrmStudentBookReport : Form
+    public partial class login : Form
     {
-        public FrmStudentBookReport()
+        public login()
         {
             InitializeComponent();
-        }
-
-        private void lblTitle_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

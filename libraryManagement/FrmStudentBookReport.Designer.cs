@@ -40,8 +40,9 @@ namespace libraryManagement
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1325, 159);
+            this.panel1.Size = new System.Drawing.Size(1767, 196);
             this.panel1.TabIndex = 7;
             // 
             // lblTitle
@@ -49,20 +50,23 @@ namespace libraryManagement
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lblTitle.Location = new System.Drawing.Point(614, 36);
+            this.lblTitle.Location = new System.Drawing.Point(819, 44);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(414, 85);
+            this.lblTitle.Size = new System.Drawing.Size(514, 105);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Book Report";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // FrmStudentBookReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
-            this.ClientSize = new System.Drawing.Size(1325, 896);
+            this.ClientSize = new System.Drawing.Size(1767, 1055);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmStudentBookReport";
             this.Text = "Book Report";
             this.panel1.ResumeLayout(false);
