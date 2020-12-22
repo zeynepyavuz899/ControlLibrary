@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace libraryManagement
 {
-    public partial class login : Form
+    public partial class login_admin : Form
     {
-        public login()
+        public login_admin()
         {
             InitializeComponent();
-        }
-
-        private void login_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AdmPic_Click(object sender, EventArgs e)
-        {
-            AdminID = idtb.ToString();
-
-
         }
     }
 }
