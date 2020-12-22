@@ -133,12 +133,6 @@
     <Compile Include="FrmStudentAccount.Designer.cs">
       <DependentUpon>FrmStudentAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmStudentBookReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmStudentBookReport.Designer.cs">
-      <DependentUpon>FrmStudentBookReport.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmStudentEditAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,11 +203,11 @@
     <EmbeddedResource Include="FrmStudentAccount.resx">
       <DependentUpon>FrmStudentAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmStudentBookReport.resx">
-      <DependentUpon>FrmStudentBookReport.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmStudentEditAccount.resx">
       <DependentUpon>FrmStudentEditAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentPenaltyReport.resx">
+      <DependentUpon>FrmStudentPenaltyReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStudentReport.resx">
       <DependentUpon>FrmStudentReport.cs</DependentUpon>

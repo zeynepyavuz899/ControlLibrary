@@ -16,5 +16,10 @@ namespace libraryManagement
         {
             InitializeComponent();
         }
+
+        private void slctpublbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
