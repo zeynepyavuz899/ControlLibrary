@@ -16,5 +16,10 @@ namespace libraryManagement
         {
             InitializeComponent();
         }
+
+        private void FrmStudentPenaltyReport_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

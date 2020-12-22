@@ -24,17 +24,18 @@ namespace libraryManagement
 
         private void AdmPic_Click(object sender, EventArgs e)
         {
-            
+
+            login_admin frm = new login_admin();
+            frm.Show();
+            this.Hide();
            
-           
-
-
-
         }
 
         private void StdPic_Click(object sender, EventArgs e)
         {
-            
+            loginstudent frm1 = new loginstudent();
+            frm1.Show();
+            this.Hide();
         }
     }
 }
