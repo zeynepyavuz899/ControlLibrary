@@ -1,6 +1,6 @@
 ﻿namespace libraryManagement
 {
-    partial class login
+    partial class Frmlogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frmlogin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.loginlbl = new System.Windows.Forms.Label();
             this.StdPic = new System.Windows.Forms.PictureBox();
             this.AdmPic = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.StdPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdmPic)).BeginInit();
             this.SuspendLayout();
@@ -42,6 +43,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(78)))));
+            this.panel1.Controls.Add(this.loginlbl);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(0, 12);
             this.panel1.Name = "panel1";
@@ -53,11 +55,11 @@
             this.loginlbl.AutoSize = true;
             this.loginlbl.Font = new System.Drawing.Font("Segoe Print", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginlbl.ForeColor = System.Drawing.SystemColors.Window;
-            this.loginlbl.Location = new System.Drawing.Point(350, 12);
+            this.loginlbl.Location = new System.Drawing.Point(202, 0);
             this.loginlbl.Name = "loginlbl";
-            this.loginlbl.Size = new System.Drawing.Size(245, 105);
+            this.loginlbl.Size = new System.Drawing.Size(559, 105);
             this.loginlbl.TabIndex = 7;
-            this.loginlbl.Text = "LOGIN";
+            this.loginlbl.Text = "KELCO LIBRARY";
             // 
             // StdPic
             // 
@@ -69,6 +71,7 @@
             this.StdPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StdPic.TabIndex = 12;
             this.StdPic.TabStop = false;
+            this.StdPic.Click += new System.EventHandler(this.StdPic_Click);
             // 
             // AdmPic
             // 
@@ -103,7 +106,7 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "STUDENT";
             // 
-            // login
+            // Frmlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,15 +114,16 @@
             this.ClientSize = new System.Drawing.Size(947, 621);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.loginlbl);
             this.Controls.Add(this.StdPic);
             this.Controls.Add(this.AdmPic);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.Name = "login";
+            this.Name = "Frmlogin";
             this.Text = "login";
             this.Click += new System.EventHandler(this.login_Click);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.StdPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdmPic)).EndInit();
             this.ResumeLayout(false);

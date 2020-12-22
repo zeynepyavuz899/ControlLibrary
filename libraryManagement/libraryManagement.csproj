@@ -152,11 +152,23 @@
       <DependentUpon>FrmStudentReport.cs</DependentUpon>
     </Compile>
     <Compile Include="imports.cs" />
-    <Compile Include="login.cs">
+    <Compile Include="Frmlogadmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.cs">
-      <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="Frmlogadmin.Designer.cs">
+      <DependentUpon>Frmlogadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmlogin.Designer.cs">
+      <DependentUpon>Frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmloginstudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmloginstudent.Designer.cs">
+      <DependentUpon>Frmloginstudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -212,8 +224,14 @@
     <EmbeddedResource Include="FrmStudentReport.resx">
       <DependentUpon>FrmStudentReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.cs</DependentUpon>
+    <EmbeddedResource Include="Frmlogadmin.resx">
+      <DependentUpon>Frmlogadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmlogin.resx">
+      <DependentUpon>Frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmloginstudent.resx">
+      <DependentUpon>Frmloginstudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace libraryManagement
 {
-    public partial class loginstudent : Form
+    public partial class login_admin : Form
     {
-        public loginstudent()
+        public login_admin()
         {
             InitializeComponent();
+        }
+
+        private void loginbtn_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
